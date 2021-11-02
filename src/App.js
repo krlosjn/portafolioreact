@@ -1,37 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
 import Menu from './components/Menu';
 import Presentation from './components/Presentation';
-import AboutMe from './components/AboutMe.js';
+import AboutMe from './components/AboutMe';
 import Hobbies from './components/Hobbies';
-import Carrousel from './components/Carrousel.js';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Curriculum from './components/Curriculum'
+import Home from './components/Home';
+import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header>
-      <Menu/>
-      </header>
-      <body>
-        <section>
-        <Presentation/>
-        </section>
-        <section>
-          <AboutMe/>
-        </section>
-        <section>
-          <Hobbies/>
-        </section>
-        <section>
-          <Skills/>
-        </section>
-        <section>
-          <Contact/>
-        </section>
-      </body>
-    </div>
+    <>
+      <Router>
+          <Switch>
+              <Route exact path='/aboutme' component={AboutMe}></Route>
+              <Route exact path='/contact' component={Contact}></Route>
+              <Route exact path='/curriculum' component={Curriculum}></Route>
+              <Route exact path='/Home' component={Home}></Route>
+          </Switch>
+      </Router>
+    </>
   );
 }
 

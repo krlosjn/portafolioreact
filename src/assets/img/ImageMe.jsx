@@ -12,6 +12,9 @@ import plsql from '../img/plsql.png';
 import html5 from '../img/html5.png';
 import react from '../img/React.png';
 import cv from '../img/cv.png';
+import proyectoUno from '../img/proyectoUno.png';
+import proyectoDos from '../img/proyectoDos.png';
+import proyectoTres from '../img/proyectoTres.png'
 
 
 export default[
@@ -27,5 +30,8 @@ export default[
     plsql,
     html5,
     react,
-    cv
+    cv,
+    proyectoUno,
+    proyectoDos,
+    proyectoTres
 ]

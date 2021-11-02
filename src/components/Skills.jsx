@@ -1,17 +1,15 @@
 import React from "react";
 import ImageMe from "../assets/img/ImageMe";
 
-class Skills extends React.Component{
-
-    render(){
-        return(
-            <div className="skills">
-                    <div className="container-fluid">
+const Skills=()=>{
+    return(
+        <div className="skills">
+                <div className="container-fluid">
                     <div className="skills-container content">
                         <div className="skill">
                             <div className="skill-container"> 
-                                <h2><span className="texto">Habilidades</span></h2>        
-                                <p className="skills-texto">Tengo habilidades en desarrollo  tanto front end como back end, manejo de base datos, conocimientos en Java, patrón de diseño MVT,
+                                <h2><span className="texto-titulo skills-white-font">Habilidades</span></h2>        
+                                <p className="skills-texto skills-white-font">Tengo habilidades en desarrollo  tanto front end como back end, manejo de base datos, conocimientos en Java, patrón de diseño MVT,
                                     metodología ágil, conocimientos Python, django, PL/SQL, entre otras. 
                                 </p>
                             </div>
@@ -50,10 +48,10 @@ class Skills extends React.Component{
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
-        );
-    }
+        </div>
+    );
+    
 }
 
 export default Skills;
