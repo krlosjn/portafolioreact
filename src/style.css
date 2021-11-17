@@ -236,4 +236,234 @@
     color:white;
 }
 
+@media screen and (max-width: 1050px) {
+    .content{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .background{
+        height: 30vh;
+    }
+    .background-info{
+        max-width: 650px;
+    }
+    .projects-list{
+        justify-content: center;
+    }
+    .projects-item{
+        margin: 5px;
+    }
+    .skills-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skills{
+        padding: 20px 0;
+    }
+    .skill{
+        width: 100%;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .skill-container{
+        padding: 10px;
+        max-width: none;
+    }
+    .technology-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
+
+
+
+@media screen and (max-width: 950px) {
+    .content{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .background-info{
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .content {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .background-info{
+        max-width: 500px;
+    }
+    .navigate-left{
+        font-size: 14px;
+    }
+    .navigate-right{
+        font-size: 14px;
+    }
+    .footer-list li{
+        font-size: 17px;
+    }
+    .footer-list h3{
+        line-height: 2;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .content{
+        display: contents;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .background-info{
+        margin: 10px;
+    }
+    .navigate-left{
+        font-size: 16px;
+    }
+    .navigate-right{
+        display: none;
+    }
+    .networks-fixed{
+        right: 0;
+        top: 380px;
+    }
+    .networks-fixed a{
+        text-decoration: none;
+        padding: 10px 10px;
+        font-size: 22px;
+        color: white;
+    }
+   
+    .img-profile{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    .info-dev h1{
+        font-size: 30px;
+    }
+    .info-dev h3{
+        font-size: 16px;
+    }
+    .subtitle{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .content{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .background{
+        height: 89vh;
+    }
+    .background-info{
+        max-width: 300px;
+        display: block;
+        text-align: center;
+        margin:auto;
+    }
+    .navigate-left{
+        font-size: 16px;
+    }
+    .networks-fixed a{
+        font-size: 20px;
+    }
+    .img-profile{
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        margin: 0;
+    }
+    .info-dev h1{
+        font-size: 25px;
+    }
+    .info-dev h3{
+        font-size: 16px;
+    }
+    .skills-container{
+        padding: 80px 20px;
+    }
+    .tech-container{
+        padding-bottom: 50px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .social-contact{
+        padding: 20px 30px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .content {
+        display: contents;
+        margin: 0 auto;
+    }
+
+    .background {
+        height: 50vh;
+    }
+
+    .background-info {
+        margin: 10px;
+    }
+
+    .img-profile {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
+
+    .info-dev h1 {
+        font-size: 25px;
+    }
+
+    .info-dev h3 {
+        font-size: 16px;
+    }
+    .subtitle{
+        margin: 10px;
+    }
+    .tech-container{
+        padding-bottom: 0;
+        margin-left: 0;
+    }
+    .skills{
+        padding: 0;
+    }
+    .contact{
+        height: 410px;
+    }
+    .social-contact{
+        padding: 0 30px;
+    }
+}
+
+
 
