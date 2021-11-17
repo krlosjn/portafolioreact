@@ -9,7 +9,7 @@ const Skills=()=>{
                         <div className="skill">
                             <div className="skill-container"> 
                                 <h2><span className="texto-titulo skills-white-font">Habilidades</span></h2>        
-                                <p className="skills-texto skills-white-font">Tengo habilidades en desarrollo  tanto front end como back end, manejo de base datos, conocimientos en Java, patrón de diseño MVT,
+                                <p className="skills-texto skills-white-font">Tengo habilidades en desarrollo  que siempre busco mejorar tanto front end como back end, manejo de base datos, conocimientos en Java, node.js,
                                     metodología ágil, conocimientos Python, django, PL/SQL, entre otras. 
                                 </p>
                             </div>

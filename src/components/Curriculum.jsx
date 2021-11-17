@@ -28,7 +28,7 @@ const Curriculum=()=>{
 
                     <ul className="lista_datos_presentacion listando">
                         <li className="datos_presentacion"><strong>Email:</strong> carfju@gmail.com</li>
-                        <li className="datos_presentacion"><strong>Edad:</strong> 26 años</li>
+                        <li className="datos_presentacion"><strong>Edad:</strong> 27 años</li>
                         <li className="datos_presentacion"><strong>Dirección:</strong> Medellín, Colombia</li>
                         <li className="datos_presentacion"><strong>Telefono:</strong> +57 3004534347</li>
                     </ul>		
@@ -66,15 +66,13 @@ const Curriculum=()=>{
             </div>
 
 
-
-
             <div id="habilidades" class="section container">
                 <h2 className="textoH2">Habilidades y Competencias</h2> 
                 <ul className="listando">
                     <li>conocimiento en programación orientado a objetos</li>
                     <li>Análisis y Resolución de problemas</li>
-                    <li>Conocimienots de algoritmia</li>
-                    <li>Conocimientos básicos en React</li>
+                    <li>Conocimientos de algoritmia</li>
+                    <li>Conocimientos básicos en React, node.js y mongoDB</li>
                     <li>JavaScript</li>
                     <li>Sistema de versionamiento git</li>
                     <li>Java</li>
