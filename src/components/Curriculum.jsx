@@ -27,9 +27,10 @@ const Curriculum=()=>{
                     <h3 className="textoH3">Full stack developer</h3>
 
                     <ul className="lista_datos_presentacion listando">
-                        <li className="datos_presentacion"><strong>Email:</strong> carfju@gmail.com</li>
+                        <li className="datos_presentacion"><strong>Cédula:</strong>1152205388</li>
+                        <li className="datos_presentacion"><strong>Email:</strong> carfjun@gmail.com</li>
                         <li className="datos_presentacion"><strong>Edad:</strong> 27 años</li>
-                        <li className="datos_presentacion"><strong>Dirección:</strong> Medellín, Colombia</li>
+                        <li className="datos_presentacion"><strong>Ciudad:</strong> Medellín, Colombia</li>
                         <li className="datos_presentacion"><strong>Telefono:</strong> +57 3004534347</li>
                     </ul>		
                             
@@ -87,7 +88,7 @@ const Curriculum=()=>{
             <div id="portafolio" className="section container">
                 <h2 className="textoH2">Contacto</h2>
                 <ul className="listando">
-                    <li className="item"><p>Télefono: 30043534347</p></li>
+                    <li className="item"><p>Télefono: 3004534347</p></li>
                     <li className="item">
                         <a href="https://github.com/krlosjn/" target="_blank" className="icon-github"><i className="bi bi-github"></i> GitHub</a>
                     </li>
