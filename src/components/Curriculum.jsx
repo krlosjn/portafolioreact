@@ -70,10 +70,10 @@ const Curriculum=()=>{
             <div id="habilidades" class="section container">
                 <h2 className="textoH2">Habilidades y Competencias</h2> 
                 <ul className="listando">
-                    <li>conocimiento en programación orientado a objetos</li>
+                    <li>Conocimiento en programación orientado a objetos</li>
                     <li>Análisis y Resolución de problemas</li>
                     <li>Conocimientos de algoritmia</li>
-                    <li>Conocimientos básicos en React, node.js y mongoDB</li>
+                    <li>Conocimientos básicos-medios en React, node.js y mongoDB</li>
                     <li>JavaScript</li>
                     <li>Sistema de versionamiento git</li>
                     <li>Java</li>
@@ -106,6 +106,4 @@ const Curriculum=()=>{
     );
     
 }
-
-
 export default Curriculum;

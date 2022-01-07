@@ -35,7 +35,6 @@ const Menu =() => {
 
                         <NavDropdown title="CV" id="collasible-nav-dropdown">
                             <NavDropdown.Item onClick={sendCv} >CV html</NavDropdown.Item>
-                            <NavDropdown.Item href="#">CV pdf</NavDropdown.Item>
                             <NavDropdown.Divider />
                         </NavDropdown>
                         </Nav>
