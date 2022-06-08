@@ -2,8 +2,7 @@ import React from 'react';
 import ImageMe from '../assets/img/ImageMe';
 import '../cv.css';
 
-const Curriculum=()=>{
-   
+const Curriculum=()=>{   
     return(
         <div>
             <div className="section container">
@@ -29,15 +28,14 @@ const Curriculum=()=>{
                     <ul className="lista_datos_presentacion listando">
                         <li className="datos_presentacion"><strong>Cédula:</strong>1152205388</li>
                         <li className="datos_presentacion"><strong>Email:</strong> carfjun@gmail.com</li>
-                        <li className="datos_presentacion"><strong>Edad:</strong> 27 años</li>
+                        <li className="datos_presentacion"><strong>Edad:</strong>27 años</li>
                         <li className="datos_presentacion"><strong>Ciudad:</strong> Medellín, Colombia</li>
                         <li className="datos_presentacion"><strong>Telefono:</strong> +57 3004534347</li>
                     </ul>		
                             
-                    <p className="parrafos">soy una persona con muchas ganas de adquirir conocimientos para
-                        desarrollar habilidades que me ayuden a crecer en el mundo tecnológico, me
+                    <p className="parrafos">soy una persona  a la que le apasiona el mundo tecnológico, me
                         gusta compartir conocimiento y ayudar a las personas, valoro mucho el
-                        trabajo en equipo y la importancia para resolver problemas.Siempre con ganas de aprender y mejorar
+                        trabajo en equipo y la importancia para resolver problemas.Siempre con ganas de aprender y mejorar mis habilidades técnicas y humanas
                     </p>
             </div>	
 
@@ -52,18 +50,40 @@ const Curriculum=()=>{
                 <p className="parrafos">SENA</p>
                 <p className="parrafos">Duración 15 meses</p>
                 <p className="parrafos">Graduado en 2020</p>
+
+                <h3 className="textoH3">Misión tic 2021</h3>
+                <p className="parrafos">universidad de antioquia</p>
+                <p className="parrafos">Duración 7 meses</p>
+                
+                <h3 className="textoH3">Ingeniería de materiales - incompleta</h3>
+                <p className="parrafos">Universidad de antioquia</p>
             </div>
 
 
             <div id="experiencia" className="section container">
             <h2 className="textoH2">Experiencia</h2>
-            <p className="parrafos">LLevo 13 meses como analista desarrollador semillero en matrixTech 27 octubre 2020-hoy</p>  
+            <p className="parrafos">15 meses como analista desarrollador  en matrixTech octubre 2020-enero
+            </p>  
+            <ul>
+                <li>Solución de incidentes</li>
+                <li>Consumo de microservicios rest y soap</li>
+                <li>implementación de componentes con arquitectura javaEE, jsp, servlets,jdbc</li>
+                <li>implementación de procedimientos almacenados con pl/sql</li>
+            </ul>
+            <p className="parrafos">6 meses desarrollador java - Ceiba Software enero-presente</p>
+            <ul>
+                <li>Análisis de requerimientos de negocio</li>
+                <li>construcción de soluciones de acuerdo al requerimiento</li>
+                <li>autoaprendizaje de herramientas según la necesidad del proyecto</li>
+            </ul>
+            {/* 
             <p className="parrafos">
                 (Acodal - noroccidente 1 enero 2016- 31 diciembre 2016)
                 Apoyo a convocatoria para eventos ambientales a través de medios virtuales,
                 emails masivos,redes sociales, invitación directa.
                 -Organización logística de capacitación
-                -Acompañamiento en el desarrollo de la capacitación</p>
+                -Acompañamiento en el desarrollo de la capacitación</p> */}
+
             </div>
 
 
@@ -73,12 +93,16 @@ const Curriculum=()=>{
                     <li>Conocimiento en programación orientado a objetos</li>
                     <li>Análisis y Resolución de problemas</li>
                     <li>Conocimientos de algoritmia</li>
+                    <li>Conocimientos de principios solid</li>
                     <li>Conocimientos básicos-medios en React, node.js y mongoDB</li>
-                    <li>JavaScript</li>
+                    <li>JavaScript,typescript</li>
                     <li>Sistema de versionamiento git</li>
+                    <li>gestores de dependencias maven y gradle</li>
                     <li>Java</li>
                     <li>SQL</li>
                     <li>PL/SQL</li>
+                    <li>springboot</li>
+                    <li>angular</li>
                     <li>HTML5</li>
                     <li>CSS</li> 
                 </ul>
@@ -104,6 +128,5 @@ const Curriculum=()=>{
             </div>
         </div>
     );
-    
 }
 export default Curriculum;
