@@ -113,7 +113,6 @@ const Curriculum=()=>{
             <div id="portafolio" className="section container">
                 <h2 className="textoH2">Contacto</h2>
                 <ul className="listando">
-                    <li className="item"><p>Télefono: 3004534347</p></li>
                     <li className="item">
                         <a href="https://github.com/krlosjn/" target="_blank" className="icon-github"><i className="bi bi-github"></i> GitHub</a>
                     </li>
