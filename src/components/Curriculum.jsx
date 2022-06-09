@@ -35,7 +35,7 @@ const Curriculum=()=>{
                             
                     <p className="parrafos">soy una persona  a la que le apasiona el mundo tecnológico, me
                         gusta compartir conocimiento y ayudar a las personas, valoro mucho el
-                        trabajo en equipo y la importancia para resolver problemas.Siempre con ganas de aprender y mejorar mis habilidades técnicas y humanas
+                        trabajo en equipo y la importancia para resolver problemas.Siempre con ganas de aprender y mejorar mis habilidades técnicas y humanas.
                     </p>
             </div>	
 
@@ -55,8 +55,8 @@ const Curriculum=()=>{
                 <p className="parrafos">universidad de antioquia</p>
                 <p className="parrafos">Duración 7 meses</p>
                 
-                <h3 className="textoH3">Ingeniería de materiales - incompleta</h3>
-                <p className="parrafos">Universidad de antioquia</p>
+                {/* <h3 className="textoH3">Ingeniería de materiales - cursando</h3>
+                <p className="parrafos">Universidad de antioquia</p> */}
             </div>
 
 
@@ -74,7 +74,7 @@ const Curriculum=()=>{
             <ul>
                 <li>Análisis de requerimientos de negocio</li>
                 <li>construcción de soluciones de acuerdo al requerimiento</li>
-                <li>autoaprendizaje de herramientas según la necesidad del proyecto</li>
+                <li>auto aprendizaje de herramientas según la necesidad del proyecto</li>
             </ul>
             {/* 
             <p className="parrafos">
@@ -93,11 +93,12 @@ const Curriculum=()=>{
                     <li>Conocimiento en programación orientado a objetos</li>
                     <li>Análisis y Resolución de problemas</li>
                     <li>Conocimientos de algoritmia</li>
-                    <li>Conocimientos de principios solid</li>
+                    <li>Testing java</li>
+                    <li>conocimientos de principios solid</li>
                     <li>Conocimientos básicos-medios en React, node.js y mongoDB</li>
                     <li>JavaScript,typescript</li>
                     <li>Sistema de versionamiento git</li>
-                    <li>gestores de dependencias maven y gradle</li>
+                    <li>Gestores de dependencias maven y gradle</li>
                     <li>Java</li>
                     <li>SQL</li>
                     <li>PL/SQL</li>
@@ -113,6 +114,7 @@ const Curriculum=()=>{
                 <h2 className="textoH2">Contacto</h2>
                 <ul className="listando">
                     <li className="item"><p>Télefono: 3004534347</p></li>
+                    <li className="item"><p>email: carfjun@gmail.com</p></li>
                     <li className="item">
                         <a href="https://github.com/krlosjn/" target="_blank" className="icon-github"><i className="bi bi-github"></i> GitHub</a>
                     </li>

@@ -14,7 +14,11 @@ import react from '../img/React.png';
 import cv from '../img/cv.png';
 import proyectoUno from '../img/proyectoUno.png';
 import proyectoDos from '../img/proyectoDos.png';
-import proyectoTres from '../img/proyectoTres.png'
+import proyectoTres from '../img/proyectoTres.png';
+import angular from '../img/angular.png';
+import typescript from '../img/typescript.png';
+import spring from '../img/spring-boot.png';
+
 
 
 export default[
@@ -33,5 +37,9 @@ export default[
     cv,
     proyectoUno,
     proyectoDos,
-    proyectoTres
+    proyectoTres,
+    angular,
+    typescript,
+    spring
+  
 ]

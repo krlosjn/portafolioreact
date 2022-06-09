@@ -10,7 +10,7 @@ const Skills=()=>{
                             <div className="skill-container"> 
                                 <h2><span className="texto-titulo skills-white-font">Habilidades</span></h2>        
                                 <p className="skills-texto skills-white-font">Tengo habilidades en desarrollo  que siempre busco mejorar tanto front end como back end, manejo de base datos, conocimientos en Java, node.js,
-                                    metodología ágil, conocimientos Python, django, PL/SQL, entre otras. 
+                                    metodología ágil,conocimientos de principios solid, programación orientada aobjetos, PL/SQL,javascript, nodejs, typescript, angular,react,  entre otras. 
                                 </p>
                             </div>
                         </div>
@@ -44,7 +44,18 @@ const Skills=()=>{
                                     <img className="love-images" src={ImageMe[11]}/>
                                     <p>React</p>
                                 </li>
-                                
+                                <li>
+                                    <img className="love-images" src={ImageMe[16]}/>
+                                    <p>Angular</p>
+                                </li>
+                                <li>
+                                    <img className="love-images" src={ImageMe[17]}/>
+                                    <p>Typescript</p>
+                                </li>
+                                <li>
+                                    <img className="love-images" src={ImageMe[18]}/>
+                                    <p>Spring boot</p>
+                                </li>
                             </div>
                         </div>
                     </div>
