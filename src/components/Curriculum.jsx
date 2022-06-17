@@ -23,17 +23,17 @@ const Curriculum=()=>{
 
             <div id="quiensoy" className="section container">
                 <h2 className="textoH2">Quién soy</h2>
-                    <h3 className="textoH3">Full stack developer</h3>
+                    <h3 className="textoH3">Software developer</h3>
 
                     <ul className="lista_datos_presentacion listando">
                         <li className="datos_presentacion"><strong>Cédula:</strong>1152205388</li>
                         <li className="datos_presentacion"><strong>Email:</strong> carfjun@gmail.com</li>
-                        <li className="datos_presentacion"><strong>Edad:</strong>27 años</li>
+                        <li className="datos_presentacion"><strong>Fecha nacimiento:</strong>23/07/1994</li>
                         <li className="datos_presentacion"><strong>Ciudad:</strong> Medellín, Colombia</li>
                         <li className="datos_presentacion"><strong>Telefono:</strong> +57 3004534347</li>
                     </ul>		
                             
-                    <p className="parrafos">soy una persona  a la que le apasiona el mundo tecnológico, me
+                    <p className="parrafos">Soy una persona  a la que le apasiona el mundo tecnológico, me
                         gusta compartir conocimiento y ayudar a las personas, valoro mucho el
                         trabajo en equipo y la importancia para resolver problemas.Siempre con ganas de aprender y mejorar mis habilidades técnicas y humanas.
                     </p>
@@ -49,11 +49,11 @@ const Curriculum=()=>{
                 <h3 className="textoH3">Técnica en programación de software</h3>
                 <p className="parrafos">SENA</p>
                 <p className="parrafos">Duración 15 meses</p>
-                <p className="parrafos">Graduado en 2020</p>
+                <p className="parrafos">2020</p>
 
                 <h3 className="textoH3">Misión tic 2021</h3>
                 <p className="parrafos">universidad de antioquia</p>
-                <p className="parrafos">Duración 7 meses</p>
+                <p className="parrafos">7 meses-2021</p>
                 
                 {/* <h3 className="textoH3">Ingeniería de materiales - cursando</h3>
                 <p className="parrafos">Universidad de antioquia</p> */}
@@ -67,22 +67,19 @@ const Curriculum=()=>{
             <ul>
                 <li>Solución de incidentes</li>
                 <li>Consumo de microservicios rest y soap</li>
+                <li>Trabajo en equipo con marco scrum</li>
                 <li>implementación de componentes con arquitectura javaEE, jsp, servlets,jdbc</li>
                 <li>implementación de procedimientos almacenados con pl/sql</li>
+                <li>Creación y diseño de tablas en base de datos</li>
             </ul>
             <p className="parrafos">6 meses desarrollador java - Ceiba Software enero-presente</p>
             <ul>
                 <li>Análisis de requerimientos de negocio</li>
-                <li>construcción de soluciones de acuerdo al requerimiento</li>
-                <li>auto aprendizaje de herramientas según la necesidad del proyecto</li>
+                <li>Testing de aplicaciones</li>
+                <li>Construcción de soluciones de acuerdo al requerimiento del cliente</li>
+                <li>Auto aprendizaje de herramientas según la necesidad del proyecto</li>
+                <li>Documentación de aplicativos</li>
             </ul>
-            {/* 
-            <p className="parrafos">
-                (Acodal - noroccidente 1 enero 2016- 31 diciembre 2016)
-                Apoyo a convocatoria para eventos ambientales a través de medios virtuales,
-                emails masivos,redes sociales, invitación directa.
-                -Organización logística de capacitación
-                -Acompañamiento en el desarrollo de la capacitación</p> */}
 
             </div>
 
@@ -90,20 +87,22 @@ const Curriculum=()=>{
             <div id="habilidades" class="section container">
                 <h2 className="textoH2">Habilidades y Competencias</h2> 
                 <ul className="listando">
-                    <li>Conocimiento en programación orientado a objetos</li>
-                    <li>Análisis y Resolución de problemas</li>
-                    <li>Conocimientos de algoritmia</li>
+                    <li>Conocimiento en Programación Orientada a Objetos</li>
+                    <li>Análisis y Resolución de Problemas</li>
+                    <li>Conocimientos de Algoritmia</li>
                     <li>Testing java</li>
-                    <li>conocimientos de principios solid</li>
-                    <li>Conocimientos básicos-medios en React, node.js y mongoDB</li>
+                    <li>Conocimientos de Principios Solid</li>
+                    <li>Conocimientos básicos Docker y Kubernetes</li>
+                    <li>Conocimientos básicos-medios en React, nodejs, angular y mongoDB</li>
+                    <li>HTML5</li>
+                    <li>CSS</li> 
                     <li>JavaScript,typescript</li>
                     <li>Sistema de versionamiento git</li>
                     <li>Gestores de dependencias maven y gradle</li>
                     <li>Java</li>
                     <li>SQL</li>
                     <li>PL/SQL</li>
-                    <li>springboot</li>
-                    <li>angular</li>
+                    <li>Springboot</li>
                     <li>HTML5</li>
                     <li>CSS</li> 
                 </ul>
