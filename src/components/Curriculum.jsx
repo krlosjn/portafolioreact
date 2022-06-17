@@ -33,9 +33,9 @@ const Curriculum=()=>{
                         <li className="datos_presentacion"><strong>Telefono:</strong> +57 3004534347</li>
                     </ul>		
                             
-                    <p className="parrafos">Soy una persona  a la que le apasiona el mundo tecnológico, me
+                    <p className="parrafos">Soy una persona a la que le apasiona el mundo tecnológico, me
                         gusta compartir conocimiento y ayudar a las personas, valoro mucho el
-                        trabajo en equipo y la importancia para resolver problemas.Siempre con ganas de aprender y mejorar mis habilidades técnicas y humanas.
+                        trabajo en equipo y la importancia pararesolver problemas.Siempre con ganas de aprender y mejorar mis habilidades técnicas y humanas.
                     </p>
             </div>	
 
