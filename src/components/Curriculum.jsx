@@ -28,7 +28,7 @@ const Curriculum=()=>{
                     <ul className="lista_datos_presentacion listando">
                         <li className="datos_presentacion"><strong>Cédula:</strong>1152205388</li>
                         <li className="datos_presentacion"><strong>Email:</strong> carfjun@gmail.com</li>
-                        <li className="datos_presentacion"><strong>Fecha nacimiento:</strong>23/07/1994</li>
+                        <li className="datos_presentacion"><strong>Fecha Nacimiento:</strong>23/07/1994</li>
                         <li className="datos_presentacion"><strong>Ciudad:</strong> Medellín, Colombia</li>
                         <li className="datos_presentacion"><strong>Telefono:</strong> +57 3004534347</li>
                     </ul>		
